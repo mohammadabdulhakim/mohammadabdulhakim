@@ -1,1 +1,1 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=800&color=118AF7&multiline=true&width=450&height=100&lines=Hi+There%2C+%F0%9F%91%8B;I'm+Mohammed+Abdulhakim;Here+are+Some+of+my+projects+below++%E2%9C%A8.)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=800&color=118AF7&multiline=true&width=450&height=100&lines=Hi+There%2C+%F0%9F%91%8B;I'm+Mohammad+Abdulhakim;Here+are+Some+of+my+projects+below++%E2%9C%A8.)
