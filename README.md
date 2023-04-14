@@ -1,5 +1,5 @@
 <!-- #1e0c79 -->
-<a href="https://www.github.com/abomisr"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=21&duration=2000&pause=500&color=2578E9&multiline=true&repeat=false&width=500&height=100&lines=Hi+there%2C+%F0%9F%91%8B;I'm+Mohammad+AbdulHakim.;Here+are+some+of+my+activities+below+%E2%9C%A8" alt="Typing SVG" /></a>
+<a href="https://www.github.com/abomisr"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=21&duration=3000&pause=500&color=2578E9&multiline=true&repeat=false&width=500&height=100&lines=Hi+there%2C+%F0%9F%91%8B;I'm+Mohammad+AbdulHakim.;Here+are+some+of+my+activities+below+%E2%9C%A8" alt="Typing SVG" /></a>
 
 
 
