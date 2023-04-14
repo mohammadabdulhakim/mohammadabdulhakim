@@ -52,7 +52,7 @@ const askQustion = () => {
       if (answer == "clear") {
         readline.cursorTo(process.stdout, 0, 0);
         readline.clearScreenDown(process.stdout);
-        console.log(chalk.gray(hints));
+        // console.log(chalk.gray(hints));
         askQustion();
       } else {
         if (output) {
@@ -71,5 +71,5 @@ const askQustion = () => {
   );
 };
 
-console.log(chalk.gray(hints));
+// console.log(chalk.gray(hints));
 askQustion();
