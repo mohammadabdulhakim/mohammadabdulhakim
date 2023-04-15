@@ -26,7 +26,7 @@ const qa = {
   4: {
     question: "Tell me more about Agere.",
     answer:
-      "Agere is an exceptional npm package that can assist you in numerous ways.\n   It boasts a range of awesome tools,\n   such as randArr() which randomizes array elements, and gPss() which generates strong passwords or IDs based on your preferences, among others.",
+      "Agere is an exceptional npm package that can assist you in numerous ways.\n   It boasts a range of awesome tools, such as randArr() which randomizes array elements,\n   and gPss() which generates strong passwords or IDs based on your preferences, among others.",
   },
 };
 
@@ -40,7 +40,7 @@ const mainColor = "#1e0c79";
 const mainColorBright = "#674af7";
 //! -------------------------------------------------
 
-const askQustion = () => {
+const askQuestion = () => {
   rl.question(
     chalk
       .hex(mainColorBright)
@@ -52,24 +52,24 @@ const askQustion = () => {
       if (answer == "clear") {
         readline.cursorTo(process.stdout, 0, 0);
         readline.clearScreenDown(process.stdout);
-        // console.log(chalk.gray(hints));
-        askQustion();
+        console.log(chalk.gray(hints));
+        askQuestion();
       } else {
         if (output) {
           console.log(chalk.yellow(`  ${output.question}`));
           console.log(chalk.green(`   ${output.answer}`));
-          askQustion();
+          askQuestion();
         } else if (answer === "close") {
           rl.close();
         } else {
           console.log(chalk.red("Invalid command."));
           console.log(chalk.gray(hints));
-          askQustion();
+          askQuestion();
         }
       }
     }
   );
 };
 
-// console.log(chalk.gray(hints));
-askQustion();
+console.log(chalk.gray(hints));
+askQuestion();
